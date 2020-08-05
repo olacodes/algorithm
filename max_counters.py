@@ -1,3 +1,4 @@
+import itertools
 def solution(A: [], N: int) -> []:
   '''
     Inputs:
@@ -12,7 +13,7 @@ def solution(A: [], N: int) -> []:
 
   if N > 100000 or len(A) <= 1:
     return A
-
+  # result = list(itertools.repeat(0, N))
   result = [0] * N
 
   max_val = 0
@@ -27,6 +28,7 @@ def solution(A: [], N: int) -> []:
         max_val = result[current_val - 1]
 
     else:
+      # result = list(itertools.repeat(max_val, N))
       result = [max_val] * N
 
   return result
