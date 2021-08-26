@@ -1,0 +1,15 @@
+{
+  "name": "pace-sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paceSubSolution.js",
+  "scripts": {
+    "test": "jest",
+    "test-paceSub": "npm test paceSubSolution.test.js 3paceSubSolution.test.js"
+  },
+  "author": "Moses",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}

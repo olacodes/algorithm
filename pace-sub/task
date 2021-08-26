@@ -1,0 +1,25 @@
+write a function (paceSub) that takes three parameters (S, W, T). 
+where S is a non-empty string of non-repeating characters, 
+W is a string of characters present in S (sub-string of S) 
+and T is the number of shifts for substituting characters of W in S
+for example given S=abcde and W=b and T = 2, 
+the resulting substituted character will be d (which is two shifts after the character "b" in S)
+the function is to return a string of substituted characters.
+
+Hints:
+T is non-negative number
+W and S are non-empty strings
+
+Example:
+paceSub("abcdefgh","cab", 3) => "fde"
+paceSub("aiwtdhoursnyed", "tonsion", 4) => "unddhnd"
+paceSub("olredtivswabu", "redet", 7) => "wabau"
+
+Instructions:
+1. In your terminal, navigate into the folder "pace-sub"
+2. run the script command "npm install"
+3. to run your test, use "npm run test-paceSub"
+
+your test time should be less than 3s.
+Good Luck
+
